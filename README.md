@@ -11,3 +11,13 @@ brew install SteveVitali/tap/claude-hibernate
 ```
 
 Source: https://github.com/SteveVitali/claude-hibernate
+
+## claude-as
+
+Run Claude Code as your work and personal accounts at the same time, with one shared setup.
+
+```bash
+brew install SteveVitali/tap/claude-as
+```
+
+Source: https://github.com/SteveVitali/claude-as
