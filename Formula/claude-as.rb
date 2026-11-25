@@ -4,8 +4,8 @@
 class ClaudeAs < Formula
   desc "Multiple Claude Code accounts with separate logins and one shared setup"
   homepage "https://github.com/SteveVitali/claude-as"
-  url "https://github.com/SteveVitali/claude-as/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "f25f4bcfa96175a9139476f9fd3d4d2c0e2c267cedb744f0ecbc08cbaf03c516"
+  url "https://github.com/SteveVitali/claude-as/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "0fdaf825e286541134ab608c25a2e5b22c212af7a4afaa3c3419e4fc926801fa"
   license "MIT"
   head "https://github.com/SteveVitali/claude-as.git", branch: "main"
 
