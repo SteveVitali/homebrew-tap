@@ -2,6 +2,16 @@
 
 Homebrew tap for [SteveVitali](https://github.com/SteveVitali)'s tools.
 
+## claude-as
+
+Multiple Claude Code accounts on one machine: separate logins, one shared setup.
+
+```bash
+brew install SteveVitali/tap/claude-as
+```
+
+Source: https://github.com/SteveVitali/claude-as
+
 ## claude-hibernate
 
 Hibernate & wake Claude Code sessions across reboots.
@@ -12,12 +22,12 @@ brew install SteveVitali/tap/claude-hibernate
 
 Source: https://github.com/SteveVitali/claude-hibernate
 
-## claude-as
+## claude-readout
 
-Run Claude Code as any number of accounts at the same time, with one shared setup.
+Terminal-aware status line for Claude Code.
 
 ```bash
-brew install SteveVitali/tap/claude-as
+brew install SteveVitali/tap/claude-readout
 ```
 
-Source: https://github.com/SteveVitali/claude-as
+Source: https://github.com/SteveVitali/claude-readout
