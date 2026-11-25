@@ -14,7 +14,7 @@ Source: https://github.com/SteveVitali/claude-hibernate
 
 ## claude-as
 
-Run Claude Code as your work and personal accounts at the same time, with one shared setup.
+Run Claude Code as any number of accounts at the same time, with one shared setup.
 
 ```bash
 brew install SteveVitali/tap/claude-as

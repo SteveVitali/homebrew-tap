@@ -18,9 +18,9 @@ class ClaudeAs < Formula
   def caveats
     <<~EOS
       Create a profile and sign in to its account:
-        claude-as work auth login
-      Optionally add a `claude-work` command:
-        claude-as link work
+        claude-as alt auth login
+      Optionally add a `claude-alt` command:
+        claude-as link alt
     EOS
   end
 
@@ -29,7 +29,7 @@ class ClaudeAs < Formula
     ENV["HOME"] = testpath
     (testpath/".claude").mkpath
     (testpath/".claude/settings.json").write "{}"
-    system bin/"claude-as", "setup", "work"
-    assert_predicate testpath/".claude-work/settings.json", :symlink?
+    system bin/"claude-as", "setup", "alt"
+    assert_predicate testpath/".claude-alt/settings.json", :symlink?
   end
 end
